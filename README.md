@@ -22,28 +22,45 @@ project-root/
 │
 
 ├── pages/
+
 │ ├── base_page.py
+
 │ ├── login_page.py
+
 │ ├── autocomplete_page.py
+
 │ ├── radio_buttons_page.py
+
 │ └── infinite_scroll_page.py
 │
 
 ├── tests/
+
 │ ├── test_login.py
+
 │ ├── test_autocomplete.py
+
 │ ├── test_radio_buttons.py
+
 │ └── test_infinite_scroll.py
 │
+
 ├── conftest.py
+
 ├── requirements.txt
+
 └── README.md
+
 ✅Create virtual environment (recommended)
+
 python -m venv venv
 venv\Scripts\activate      # Windows
 source venv/bin/activate   # Mac/Linux
+
 ✅Install dependencies
+
 pip install -r requirements.txt
+
 ✅Install ChromeDriver
 
 Download ChromeDriver matching your Chrome version and add it to PATH.
@@ -58,6 +75,7 @@ Run specific test file:
 pytest tests/test_dropdowns.py -v
 
 📊 Generate HTML Report
+
 pytest -v --html=report.html --self-contained-html
 Open report.html in browser after execution.
 
@@ -67,12 +85,14 @@ Open report.html in browser after execution.
 Page Object Model (POM)
 
 Benefits:
+
 Reusable page methods
 Clean separation of test logic
 Easier maintenance
 Scalable test structure
 
 ✅ Example Test Flow
+
 Open page
 Fill form fields
 Select dropdown values
