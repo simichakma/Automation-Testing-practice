@@ -17,8 +17,10 @@ Web Page: https://practice.expandtesting.com/
 ---
 
 ## 📂 Project Structure
+
 project-root/
 │
+
 ├── pages/
 │ ├── base_page.py
 │ ├── login_page.py
@@ -26,6 +28,7 @@ project-root/
 │ ├── radio_buttons_page.py
 │ └── infinite_scroll_page.py
 │
+
 ├── tests/
 │ ├── test_login.py
 │ ├── test_autocomplete.py
