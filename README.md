@@ -32,7 +32,7 @@ project-root/
 │ ├── radio_buttons_page.py
 
 │ └── infinite_scroll_page.py
-│
+
 
 ├── tests/
 
@@ -43,7 +43,7 @@ project-root/
 │ ├── test_radio_buttons.py
 
 │ └── test_infinite_scroll.py
-│
+
 
 ├── conftest.py
 
